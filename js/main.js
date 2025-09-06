@@ -284,7 +284,7 @@ conclusaoTit.innerHTML = "Conclusão";
 conclusaoText = document.createElement("h3");
 conclusaoText.style.textAlign = "justify";
 conclusaoText.innerHTML = muchoTexto(
-    `No trimestre, consegui acompanhar bem as velocidade aulas e absorver os conteúdos apresentados. Sempre que surgiram dúvidas, procurei aprender.
+    `No trimestre, consegui acompanhar bem a velocidade das aulas e absorver os conteúdos apresentados. Sempre que surgiram dúvidas, procurei aprender.
 As atividades e os exercícios foram bastante úteis, pois facilitaram o entendimento dos conteúdos.
 Entretanto, acredito que poderia ter um desempenho melhor, e acabei dormindo em algumas das aulas. Peço desculpas, e vou agir diferente nos demais trimestres.`);
 conclusao.appendChild(conclusaoTit);
@@ -303,4 +303,5 @@ disclaimerText.style.textAlign = "justify";
 disclaimerText.innerHTML = muchoTexto(`Momentos em que não é citado a fonte externa, são onde o material foi retirado dos conteúdos repassados pela professora durante as aulas.`);
 disclaimer.appendChild(disclaimerTit);
 disclaimer.appendChild(disclaimerText);
+
 document.body.appendChild(disclaimer);
